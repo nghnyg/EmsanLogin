@@ -1,3 +1,5 @@
+package com.inomera.sln;
+
 import org.apache.commons.io.FileUtils;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.*;
@@ -99,11 +101,9 @@ public class EmsanLogin {
         orderpage.click();
 
      Thread.sleep(5000);
-
      takeScreenShot();
+     Thread.sleep(2000);
      driver.close();
-
-     //driver.get("https://gmail.com/");
 
 
     }
