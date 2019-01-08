@@ -75,7 +75,7 @@ public class EmsanLogin {
         WebElement login_button = driver.findElement(By.xpath("//*[@id=\"login\"]/button"));
         login_button.click();
 
-        Thread.sleep(2000);
+        Thread.sleep(5000);
 
         WebElement payment_finish = driver.findElement(By.xpath("//*[@id=\"checkout_cart\"]/div[5]/div/div[2]/a"));
         payment_finish.click();
